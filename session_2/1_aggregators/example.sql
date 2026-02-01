@@ -8,3 +8,5 @@
 -- 3. Exit SQLite: .exit
 
 -- Use this file to test things out, follow allow with classwork, etc.
+--SELECT Continent, COUNT(*) FROM countries GROUP BY Continent;
+SELECT Continent, COUNT(*) AS TotalCountries FROM countries GROUP BY Continent;

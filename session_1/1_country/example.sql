@@ -8,4 +8,12 @@
 -- 1. Open SQLite in terminal: sqlite3 countries.db
 -- 2. Load this script: .read example.sql
 -- 3. Exit SQLite: .exit
-SELECT Country, Continent from countries;
+--SELECT Country, Continent from countries;
+--SELECT Continent, COUNT(*) FROM countries GROUP BY Continent;
+SELECT Continent, COUNT(*) AS TotalCountries FROM countries GROUP BY Continent;
+
+
+
+
+
+

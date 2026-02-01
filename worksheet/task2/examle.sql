@@ -1,0 +1,1 @@
+SELECT StudentId FROM Student;
